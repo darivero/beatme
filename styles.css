@@ -1,0 +1,88 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: url('imagenfondobeatme.jpg') center/cover no-repeat #f8f8f8;
+    font-family: Monserrat, sans-serif;
+    text-align: center;
+    color: white;
+}
+
+h1 {
+    font-family: UrbanJungleDEMO, sans-serif;
+    font-size: 80px;
+    color: #fff;
+    -webkit-text-stroke-width: 2px black;
+    text-shadow: 0 0 10px #fff, 0 0 40px #00bcd4;
+    margin-bottom: 20px;
+}
+
+h3 {
+    font-family: monospace;
+    font-size: 20px;
+    color: #fff;
+    text-shadow: 0 0 5px black;
+}
+h5 {
+    font-family: monospace;
+    font-size: 10px;
+    color: #fff;
+    text-shadow: 0 0 5px black;
+}
+
+.botones {
+
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    justify-content: center;
+    margin-top: 5%;
+}
+
+button {
+
+    padding: 0% 0%;
+    margin: 5%;
+    font-family: Roboto, sans-serif;
+    font-size: 30px;
+    text-shadow: 2px 5px 5px rgba(0, 0, 0, 0.5);
+    box-shadow: 2px 5px 5px rgba(0, 0, 0, 1);
+    cursor: pointer;
+    border: none;
+    border-radius: 10px;
+    color: black;
+    background-color: #266ba3;
+    transition: background-color 0.3s;
+}
+
+button.active {
+    background-color: #133b61;
+}
+
+.stop-btn {
+    font-family: Roboto, sans-serif;
+    font-size: 30px;
+    text-align: center;
+    line-height: normal;
+    box-shadow: 2px 5px 5px rgba(0, 0, 0, 0.5);
+    padding: 15px 0; /* Ajustar el padding para adaptarse al contenido */
+    width: 80%; /* Ajustar el ancho según sea necesario */
+    margin: 30px auto; /* Centrar el botón y ajustar los márgenes */
+    color: black;
+    background-color: rgb(200, 33, 33);
+}
+
+
+.marco {
+    width: 100%;
+    background-color: black;
+    padding: 20px;
+    text-align: center;
+}
+
+.marco img {
+    max-width: 5%;
+    height: auto;
+    align-content: flex-end;
+}
+
+button:nth-child(-n+9) { background-color: var(--color-#4db456); }
